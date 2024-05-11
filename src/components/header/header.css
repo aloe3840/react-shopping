@@ -1,0 +1,43 @@
+.nav-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  max-width: 1152px;
+  margin: auto;
+}
+
+.nav-title{
+  color: green;
+  margin-left: 1.5rem;  /*1rem = 16px 고정값*/
+  font-weight: bold;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.nav-ul{
+  display: flex;
+  padding: 0 30px;
+  font-weight: bolder;
+  align-items: center;
+}
+
+.nav-li{
+  padding: 10px 30px;
+  border: 1px solid black;
+  cursor: pointer;
+  color: darkolivegreen;
+}
+
+/*제목크기를 반응형으로*/
+@media (min-width:640px){
+  .nav-title{
+    font-size: 1.8rem;
+  }
+}
+
+@media (min-width:768px){
+  .nav-title{
+    font-size: 1.8rem;
+  }
+}
